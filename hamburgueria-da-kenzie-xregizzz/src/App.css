@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+@media (min-width: 375px) {
+  .cart {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 425px) {
+  .cart {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cart {
+    margin-left: 185px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cart {
+    margin: 0;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cart {
+    margin-top: 15px;
+    width: 29vw;
+  }
+
+
+}

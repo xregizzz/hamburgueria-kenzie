@@ -1,0 +1,144 @@
+.btnPesquisar {
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  margin: 0px;
+  height: 40px;
+  width: 107px;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 220px;
+}
+
+.btnPesquisar:hover {
+  cursor: pointer;
+  border: 2px solid #93d7af;
+  background-color: #93d7af;
+}
+
+.divPesquisa {
+  width: 300px;
+  position: relative;
+}
+
+.inputPesquisa {
+  margin: 0px;
+  padding: 20px;
+  outline: none;
+  height: 17px;
+  width: 270px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  margin-left: 25px;
+}
+
+.header {
+  height: 140px;
+  width: 400px;
+  background: #f5f5f5;
+}
+
+.divLogo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.divLogo h1 {
+  margin: 0;
+  color: #333333;
+}
+
+.divLogo h1:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.divLogo h3 {
+  margin: 0;
+  color: #eb5757;
+}
+
+.divLogo h3:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+@media (min-width: 425px) {
+  .inputPesquisa {
+    margin-left: 60px;
+  }
+
+  .btnPesquisar {
+    left: 255px;
+  }
+
+  .header {
+    width: 445px;
+  }
+}
+
+@media (min-width: 768px) {
+  .inputPesquisa {
+    margin-left: 225px;
+  }
+
+  .btnPesquisar {
+    left: 420px;
+  }
+
+  .header {
+    width: 775px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+
+  .inputPesquisa {
+    margin-left: 0px;
+  }
+
+  .btnPesquisar {
+    left: 195px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    height: 11vh;
+  }
+
+  .divLogo h1 {
+    font-size: 4vw;
+  }
+  .divLogo h3 {
+    font-size: 2.8vw;
+  }
+
+  .btnPesquisar {
+    width: 7vw;
+    height: 5vh;
+    left: 18vw;
+    top: 1.2vw;
+    font-size: 1vw;
+  }
+
+  .inputPesquisa {
+    width: 24vw;
+    height: 4vh;
+    font-size: 1vw;
+  }
+}

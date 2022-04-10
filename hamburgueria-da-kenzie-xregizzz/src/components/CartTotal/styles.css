@@ -1,0 +1,87 @@
+.buttonRemoveAll {
+  height: 60px;
+  width: 343px;
+  border-radius: 8px;
+  padding: 0px, 20px, 0px, 20px;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.buttonRemoveAll:hover {
+  cursor: pointer;
+  background: #828282;
+  border: 2px solid #828282;
+}
+
+.totalName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.totalSpan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
+
+.divDetailsTotal {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divDetailsTotal h1 {
+  margin-left: 10px;
+}
+
+.divDetailsTotal span {
+  margin-right: 10px;
+}
+
+.divCartTotal {
+  height: 155px;
+  width: 363px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .divCartTotal {
+    width: auto;
+    height: 15vh;
+    padding-bottom: 35px;
+  }
+
+  .buttonRemoveAll {
+    width: 26vw;
+    height: 8vh;
+
+    font-size: 1vw;
+  }
+
+  .divDetailsTotal h1 {
+    font-size: 1.5vw;
+  }
+
+  .divDetailsTotal span {
+    font-size: 1.5vw;
+  }
+}

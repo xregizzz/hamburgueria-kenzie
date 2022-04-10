@@ -1,0 +1,92 @@
+.ulCart {
+  background: #f5f5f5;
+  width: 363px;
+  height: 310px;
+  padding: 0;
+  overflow-y: auto;
+  margin: 0;
+}
+
+.divEmptyCart {
+  width: 365px;
+  height: 158px;
+  left: 1120px;
+  top: 171px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divEmptyCart h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+}
+
+.divEmptyCart h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #828282;
+  margin: 0;
+}
+
+.HeaderCart {
+  width: 365px;
+  height: 65px;
+  background: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderCart h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+  margin-left: 20px;
+}
+
+@media (min-width: 1024px) {
+  .divEmptyCart {
+    width: auto;
+  }
+
+  .HeaderCart {
+    width: auto;
+    height: 5vh;
+  }
+
+  .HeaderCart h1 {
+    font-size: 1vw;
+  }
+
+  .ulCart {
+    width: auto;
+    height: 36vh;
+  }
+
+  .divEmptyCart h1 {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+  }
+
+  .divEmptyCart h3 {
+    font-size: 1vw;
+  }
+}

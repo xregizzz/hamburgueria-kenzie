@@ -1,0 +1,21 @@
+.ulProductList {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .ulProductList {
+    width: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    padding: 0;
+  }
+
+  .ulProductList {
+    width: 70vw;
+  }
+}
