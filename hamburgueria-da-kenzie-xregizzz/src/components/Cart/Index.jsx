@@ -11,8 +11,8 @@ function Cart({ currentSale, deleteProduct, setCurrentSale }) {
 
       {currentSale.length < 1 ? (
         <div className="divEmptyCart">
-          <h1>Sua Sacola esta vazia</h1>
-          <h3>Adicionar Itens</h3>
+          <h1>Sua sacola está vazia</h1>
+          <h3>Adicione itens</h3>
         </div>
       ) : (
         <div>
